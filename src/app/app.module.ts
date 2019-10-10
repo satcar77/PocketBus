@@ -21,13 +21,14 @@ import { ConnectivityServiceProvider } from '../providers/connectivity-service/c
 import { Network } from '@ionic-native/network';
 import { Geolocation } from '@ionic-native/geolocation';
 import { LocalNotifications } from '@ionic-native/local-notifications';
+//add your own firebase API key here
   export const firebaseConfig = {
-    apiKey: "AIzaSyAV7fdB61Yy3iCRsDBpI76TRoPOBlHS7cM",
-    authDomain: "pocketbus-e6dac.firebaseapp.com",
-    databaseURL: "https://pocketbus-e6dac.firebaseio.com",
-    projectId: "pocketbus-e6dac",
-    storageBucket: "pocketbus-e6dac.appspot.com",
-    messagingSenderId: "640336522215"
+    apiKey: "",
+    authDomain: "",
+    databaseURL: "",
+    projectId: "",
+    storageBucket: "",
+    messagingSenderId: ""
   };
 @NgModule({
   declarations: [
