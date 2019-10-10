@@ -1,26 +1,13 @@
-This is a starter template for [Ionic](http://ionicframework.com/docs/) projects.
+## PocketBus App
+This app is part of the submission for my college level minor project. Basically, This is an ionic hybrid app integrated with firebase and few cordova plugins.
 
-## How to use this template
+“Pocket Bus” is designed to make commutation easier amidst transportation woes of our country.
+Many students in their school/college life travel using school bus.  For guardians, within their busy schedule, getting kids ready for school in the early morning is feverish. There is no time basis regarding the school bus in order manage their time. “Pocket Bus” application is designed with an intension to minimize that specific problem. Here, the application provides the real-time position of the school bus with additional information like the approximate time required for the bus to reach the bus stop. Students can know when the bus will arrive, helping for fewer missed pickups and delays.
+This tracking system can be implemented for public vehicles as well. People will be able to track vehicles for their route and get information like time for that vehicle to reach certain bus stops using simple and easy to use UI. This will certainly help commuters save some of their valuable time.
 
-*This template does not work on its own*. The shared files for each starter are found in the [ionic2-app-base repo](https://github.com/ionic-team/ionic2-app-base).
-
-To use this template, either create a new ionic project using the ionic node.js utility, or copy the files from this repository into the [Starter App Base](https://github.com/ionic-team/ionic2-app-base).
-
-### With the Ionic CLI:
-
-Take the name after `ionic2-starter-`, and that is the name of the template to be used when using the `ionic start` command below:
-
-```bash
-$ sudo npm install -g ionic cordova
-$ ionic start myTabs tabs
-```
-
-Then, to run it, cd into `myTabs` and run:
-
-```bash
-$ ionic cordova platform add ios
-$ ionic cordova run ios
-```
-
-Substitute ios for android if not on a Mac.
-
+## Screens:
+![enter image description here](https://github.com/satcar77/PocketBus/blob/master/screens/1.JPG)
+![enter image description here](https://github.com/satcar77/PocketBus/blob/master/screens/2.JPG)
+![enter image description here](https://github.com/satcar77/PocketBus/blob/master/screens/3.JPG)
+![enter image description here](https://github.com/satcar77/PocketBus/blob/master/screens/4.JPG)
+![enter image description here](https://github.com/satcar77/PocketBus/blob/master/screens/5.JPG)
