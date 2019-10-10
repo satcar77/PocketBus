@@ -1,0 +1,28 @@
+<ion-header>
+
+  <ion-navbar color="dark">
+    <ion-title>Notice</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+
+<ion-content>
+  <ion-item *ngIf="message.length>0">
+    <h2><b>{{message}}</b></h2>
+  </ion-item>
+  <ion-card *ngFor="let item of notices | async">
+
+    <ion-item>
+    <b>  <h2>{{item.title}}</h2></b>
+    <hr>
+       <p>{{item.timestamp}}</p>
+    </ion-item>
+
+    <ion-card-content>
+      <p>{{item.details}}</p>
+    </ion-card-content>
+
+  </ion-card>
+</ion-content>

@@ -1,0 +1,36 @@
+<ion-header>
+
+  <ion-navbar [color]="item?'light':'dark'">
+  
+      <ion-row>
+       <button *ngIf="item" (click)="scheduleNotification()" ion-button color="dark"><ion-icon [name]=" scheduleStatus?'notifications-off':'notifications'"></ion-icon></button>
+    
+        
+         
+             <div class="bar" *ngIf="item" text-uppercase>
+        
+        <b>{{' | '+message.name}}</b></div>  
+    
+       <ion-note class="barnote" *ngIf="item"> E.A.T : <div *ngIf="time.hour">{{time.hour}} hr, </div>{{time.minutes}} min</ion-note>
+    
+      </ion-row>
+      <div class="error">
+ {{message.error}}
+  </div>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content>
+ 
+  <!--<ion-card *ngIf="!item">
+  <ion-card-content>
+  No bus selected!
+  </ion-card-content>
+</ion-card>-->
+
+  <div #map id="map">
+    
+  </div>
+</ion-content>

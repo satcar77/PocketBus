@@ -1,0 +1,33 @@
+<ion-header>
+
+  <ion-navbar color="dark">
+    <ion-title>Select a bus</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content>
+  <ion-item *ngIf="message.length>0">
+    <h2>{{message}}</h2>
+  </ion-item>
+  <ion-card *ngFor="let item of buses">
+
+    <ion-item>
+      <h2>{{item.busName}}</h2>
+      <ion-badge color="dark" float-right>{{item.online?'Online':'Offline'}}</ion-badge>
+    </ion-item>
+
+    <ion-card-content>
+      <p>{{item.busDescription}}</p>
+    </ion-card-content>
+
+    <ion-row>
+      <ion-col>
+        <button ion-button [color]="selectedbus==item.$key? 'danger':'primary' " (click)="select(item.$key)" outline>
+            {{selectedbus==item.$key ? 'Selected':'Select'}}
+          </button>
+      </ion-col>
+        </ion-row>
+  </ion-card>
+</ion-content>

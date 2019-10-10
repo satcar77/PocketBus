@@ -1,0 +1,28 @@
+
+<ion-header>
+
+  <ion-navbar color="light">
+   
+    <ion-row>
+      <ion-col>
+         <h5>Select your Bus stop </h5>
+      </ion-col>
+      <ion-col>
+    <button (click)="onSave()" ion-button color="dark" outline float-right>Save</button>
+      </ion-col>
+    </ion-row>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content>
+  {{message}}
+  <div #map2 id="map2">
+    
+  </div>
+   <ion-fab bottom left>
+    <button color='dark' (click)="trackMe()" ion-fab mini><ion-icon name="locate"></ion-icon></button>
+  </ion-fab>
+
+</ion-content>
