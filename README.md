@@ -1,5 +1,5 @@
 ## PocketBus App
-This app is part of the submission for my college level minor project. Basically, This is an ionic hybrid app integrated with firebase and few cordova plugins.
+ This is an ionic hybrid app integrated with firebase and few cordova plugins.
 
 “Pocket Bus” is designed to make commutation easier amidst transportation woes of our country.
 Many students in their school/college life travel using school bus.  For guardians, within their busy schedule, getting kids ready for school in the early morning is feverish. There is no time basis regarding the school bus in order manage their time. “Pocket Bus” application is designed with an intension to minimize that specific problem. Here, the application provides the real-time position of the school bus with additional information like the approximate time required for the bus to reach the bus stop. Students can know when the bus will arrive, helping for fewer missed pickups and delays.
